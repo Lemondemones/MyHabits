@@ -62,4 +62,3 @@ class ProgressCell: UICollectionViewCell {
         fatalError("init(coder:) has not been implemented")
     }
 }
-

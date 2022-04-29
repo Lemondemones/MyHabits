@@ -7,6 +7,7 @@
 
 import UIKit
 
+let store1 = HabitsStore.shared
 class HabitDetailsViewController: UIViewController {
 
     weak var callFromDetailToHabits: TestDelegate?

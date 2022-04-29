@@ -27,7 +27,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="MyHabits" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ei-1m-Rs3">
                                 <rect key="frame" x="170" y="792" width="88" height="24"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="88" id="5Wj-w1-f9b"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="88" id="5Wj-w1-f9b"/>
                                     <constraint firstAttribute="height" constant="24" id="AUR-Sb-9VP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="19"/>
@@ -51,7 +51,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="launch_icon" width="120" height="120"/>
+        <image name="launch_icon" width="1024" height="1024"/>
         <namedColor name="My_purple">
             <color red="0.63137254901960782" green="0.086274509803921567" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
